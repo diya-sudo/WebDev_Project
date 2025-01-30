@@ -108,7 +108,7 @@ header .search-bar-container label:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: column;
+    
     position: relative;
     z-index: 0;
 }
@@ -142,7 +142,7 @@ header .search-bar-container label:hover{
     object-fit: cover;
      /* Ensures the video covers the container */
     object-position: center center; /* Focuses on the central part of the video */
-    clip-path: inset(10% 0 10% 0); 
+    clip-path: inset(15% 0 15% 0); 
 }
 .popularplaces {
     padding: 2rem 9%;
@@ -161,12 +161,31 @@ header .search-bar-container label:hover{
 
 }
 .popularplaces .box-container .box img{
-    height: 25rem;
+    height: 20rem;
     width:100%;
     object-fit:cover;
 }
 .popularplaces .box-container .box .content{
-    margin-left: 7px;
+    padding: 1rem;
+}
+.popularplaces .box-container .box .content h3{
+    font-size: 0.5rem;
+    color:#333;
+}
+.popularplaces .box-container .box .content h3 i{
+    color:#333;
+}
+
+.popularplaces .box-container .box .content p{
+    font-size:1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+.footer{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 .pictures {
     display:flex;
@@ -190,6 +209,3 @@ header .search-bar-container label:hover{
     display: block; 
     border-radius: .5rem; /* Smooth corners */
 }
-/* .popularplaces .box-container .box .Explore{
-    text-align: center;
-} */
